@@ -47,3 +47,27 @@
 // laps()
 
 
+// let lap_start = 0
+
+// //let i = 0
+
+// function lap_incre(){
+
+//     console.log(lap_start)
+
+// }
+
+ 
+// lap_incre()
+// //console.log (lap_start);
+
+
+let count = 0
+let countEl = document.getElementById("count-el")
+function countincre(){
+
+    count = count + 1
+    countEl.innerText = count
+    console.log(countEl)
+
+}
